@@ -39,7 +39,7 @@ best for learning new languages.
 
 2. Go to the directory with the `Pipfile` and run
    ```
-   pipenv install
+   pipenv install// for windows: pip install pipenv
    ```
 
 3. After the install completes, run

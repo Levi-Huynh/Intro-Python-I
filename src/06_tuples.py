@@ -1,5 +1,5 @@
 """
-Python tuples are sort of like lists, except they're immutable and
+Python tuples are sort of like lists, except they're immutable (read only) and
 are usually used to hold heterogenous data, as opposed to lists
 which are typically used to hold homogenous data. Tuples use 
 parens instead of square brackets. 
@@ -17,28 +17,42 @@ automatically.
 
 import math
 
-def dist(a, b):
-    """Compute the distance between two x,y points."""
-    x0, y0 = a  # Destructuring assignment
-    x1, y1 = b
+#def dist(a, b):
+  #  """Compute the distance between two x,y points."""
+    #x0, y0 = a  # Destructuring assignment
+    #x1, y1 = b
     
-    return math.sqrt((x1 - x0)**2 + (y1 - y0)**2)
+    #return math.sqrt((x1 - x0)**2 + (y1 - y0)**2)
 
-a = (2, 7)   # <-- x,y coordinates stored in tuples
-b = (-14, 72)
+#a = (2, 7)   # <-- x,y coordinates stored in tuples
+#b = (-14, 72)
 
 # Prints "Distance is 66.94"
-print("Distance is: {:.2f}".format(dist(a, b)))
+#print("Distance is: {:.2f}".format(dist(a, b)))
 
 
 
 # Write a function `print_tuple` that prints all the values in a tuple
 
 # YOUR CODE HERE
+  # Prints 1 2 5 7 99, one per line
 
-t = (1, 2, 5, 7, 99)
-print_tuple(t)  # Prints 1 2 5 7 99, one per line
+#def print_tuple(t):
+    #t = (1, 2, 5, 7, 99)
+   # for i in t:
+      #  print(i)
+
+
+#t = (1, 2, 5, 7, 99)
+#print(print_tuple(t))
+
 
 # Declare a tuple of 1 element then print it
-u = (1)  # What needs to be added to make this work?
-print_tuple(u)
+
+
+def print_tuple(u):
+  #u=(1)
+  print(u)
+  # What needs to be added to make this work? // declare print_tuple()
+u = (1, 2) 
+print(print_tuple(u))
