@@ -5,6 +5,8 @@ you'll find in other languages (though *you can also initialize and
 populate dictionaries using comprehensions* just like you can with 
 lists!). 
 
+order not guaranteed when doing comprehensions with dictionaries
+
 The docs can be found here:
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 
@@ -48,13 +50,13 @@ waypoints = [
 # https://www.pythonforbeginners.com/dictionary/dictionary-manipulation-in-python
 # YOUR CODE HERE
 #y = []
-#y = waypoints[0]['lon']
+y = waypoints[0]['lon']
 # y.append(-130)
 
-#waypoints[0]['lon'] = -131
-#waypoints[0]['name'] = "not a real place" 
+waypoints[0]['lon'] = -131
+waypoints[0]['name'] = "not a real place"
 
-#print(waypoints)
+# print(waypoints)
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 

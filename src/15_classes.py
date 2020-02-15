@@ -111,7 +111,7 @@ class Waypoint(LatLon):
 
 # https://stackoverflow.com/questions/53043399/subclass-constructor-throws-typeerror-init-takes-2-positional-arguments-b
 # JUST INCLUDE THE PARENT attributes IN `super().__int__()` keep all of the attributes you'll use in `def __init__(self, name, diff, size, lat, lon)
-# `
+# bc super inherits from parent!!!
 
 
 class Geocache(LatLon):

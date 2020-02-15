@@ -103,6 +103,16 @@ def f4(reqArg, **things):
         for key, value in things.items():
             print("key:", key, ":", "value:", value)
 
+def f5(*arg):
+    return arg[0] * arg[1] * arg[2]
+
+function f5(...z){
+ return z
+}
+
+f5(1,2,3) 
+
+
 
 # Should print
 # key: a, value: 12

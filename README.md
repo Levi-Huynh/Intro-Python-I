@@ -17,6 +17,7 @@ and what doesn't as you go through the process of exploring Python.
 * Write a bunch of "toy programs" that demonstrate different key features of the
   language
 
+
 * Explore the standard library that's available for the language. Skim it
   briefly for now--the idea isn't to memorize everything but to file away
   generally what functionality is available.
